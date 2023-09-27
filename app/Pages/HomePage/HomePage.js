@@ -15,9 +15,11 @@ const HomePage = () => {
             Your reliable MedTech Partner for a <br/>Healthier Future
           </p>
           <button>Contact Us</button>
+    <div class="arraow-container">
+      <img src='/arrow.svg' />
+    </div>
+
         </div>
-
-
       </div>
       <div class="bottom-ovel">
         <div></div>

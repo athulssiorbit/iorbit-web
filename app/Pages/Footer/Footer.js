@@ -18,8 +18,9 @@ const Footer = () => {
                        <SocialIcons icon="/youtube.svg"/>
                     </div>
                 </div>
-                <div>
+                <div class='site-map'>
                     <h4>Site Map</h4>
+                    <div class="under-line"></div>
                     <ul>
                         <li>About us</li>
                         <li>Our Solutions</li>
@@ -29,8 +30,9 @@ const Footer = () => {
                         <li>Contact</li>
                     </ul>
                 </div>
-                <div>
+                <div class='our-solution'>
                     <h4>Our Solutions</h4>
+                    <div class="under-line"></div>
                     <ul>
                         <li>iOrbit Helath System</li>
                         <li>White Labelled Designs</li>
@@ -39,13 +41,25 @@ const Footer = () => {
                         <li>Verification And Validation</li>
                     </ul>
                 </div>
-                <div>
+                <div class="contact">
                     <h4>Contact</h4>
+                    <div class="under-line"></div>
                     <ul class="contact-ul">
                         <li>
                             <img src='/location.svg' />
                             <span>iOrbit Digital Technologies LLC
                                 Atlanta, USA</span>
+                        </li>
+                        <li>
+                            <img src='/location.svg' />
+                            <span>iOrbit Digital Technologies Pvt. Ltd.India</span>
+                        </li>
+                        <li>
+                            <img src='/mail.svg' />
+                            <div class='mail-link'>
+                            <a href="mailto:support@iorbit-tech.com">support@iorbit-tech.com</a>
+                            <a href="mailto:sales@iorbit-tech.com">sales@iorbit-tech.com</a>
+                            </div>
                         </li>
 
                     </ul>
