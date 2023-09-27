@@ -1,0 +1,59 @@
+.six-section {
+  padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom left, #201d1d 50%, #ffffff 50%);
+}
+// .six-section::before {
+//     background-image: linear-gradient(
+//         to bottom left,
+//         #201d1d 50%,
+//         #ffffff 50%
+//     );
+// }
+
+.six-container {
+  max-width: 1100px;
+  background: linear-gradient(0deg, white 0%, white 100%), radial-gradient(83.44% 30.55% at 672.37% 15.27%, rgba(255, 255, 255, 0) 0%, white 100%); box-shadow: 0px 50px 60px rgba(167.93, 185.76, 231.63, 0.15); 
+  height: 572px;
+  border-radius: 60px;
+  overflow: hidden;
+  display: flex;
+  .left-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    justify-content: center;
+    gap: 1.8rem;
+    h2 {
+      // Enabling Early Intervention Through Early Prediction
+      color: #201d1d;
+      font-size: 2.25rem;
+      font-family: Gotham;
+      font-weight: 700;
+      line-height: 50px;
+      word-wrap: break-word;
+    }
+    p {
+      // Often times, changes in a patient's vital signs can be an early indication of an impending critical event.<br/> Our iOrbit Health System is equipped with an early warning scoring system that combines multiple vital sign parameters into a calculated score to indicate a patient's degree of deterioration.<br/> This scoring mechanism enables clinicians to identify these warning signs sooner, allowing them to intervene quickly before a life-threatening event occurs.
+      color: #201d1d;
+      font-size: 0.875rem;
+      font-family: Gotham;
+      font-weight: 400;
+      line-height: 28px;
+      word-wrap: break-word;
+    }
+  }
+
+  .right-container {
+    display: flex;
+    gap: 1rem;
+    padding: 0 3rem;
+    div {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+}

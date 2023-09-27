@@ -1,0 +1,48 @@
+.response-section {
+  // padding: 6rem 0;
+  display: flex;
+  justify-content: center;
+  // background-image: linear-gradient(to bottom left, #201d1d 50%, #ffffff 50%);
+
+  .response-container {
+    max-width: var(--max-width);
+    display: flex;
+    gap: 3rem;
+    margin: 2rem 0 5rem 0;
+
+    div:last-child{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    h2 {
+      // Response Care
+      color: #201d1d;
+      font-size: 36px;
+      font-family: Gotham;
+      font-weight: 700;
+      line-height: 50px;
+      word-wrap: break-word;
+    }
+    p {
+      // iOrbit's digital health platform, Response Care, offers post-implant patient care services through a network of certified technical consultants and the Carelink device network. These services are specifically designed for patients who have received iOrbit implantable devices under the guidance of their physicians
+      color: #808285;
+      font-size: 14px;
+      font-family: Gotham;
+      font-weight: 400;
+      line-height: 28px;
+      word-wrap: break-word;
+    }
+
+    button {
+        border: none;
+        background-color: #009FE3;
+        padding: 1rem 1.5rem;
+        border-radius: 1.5rem;
+        color: white;
+    }
+  }
+}

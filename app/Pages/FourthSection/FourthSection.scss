@@ -1,0 +1,76 @@
+.fourth-section {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  .fourth-container {
+    display: flex;
+    max-width: 1100px;
+    padding: 4rem 0;
+    .book-a-meet-container {
+      display: flex;
+      align-self: center;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+      .need-help-text {
+        // Need help with connectivity as part of your digital transformation? Contact iOrbit today to see how we can help.
+        color: #808285;
+        font-size: 1.125rem;
+        font-family: Gotham;
+        font-weight: 400;
+        line-height: 36px;
+        word-wrap: break-word;
+      }
+      button {
+        border: none;
+        background-color: #009fe3;
+        padding: 1rem 1.5rem;
+        border-radius: 1.5rem;
+        color: white;
+      }
+    }
+    div:first-child {
+      .book-a-meet-head {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        h2 {
+          // Book a meeting
+          color: #201d1d;
+          font-size: 2rem;
+          font-family: Gotham;
+          font-weight: 700;
+          line-height: 40px;
+          word-wrap: break-word;
+        }
+      }
+      .blue-circle {
+        background-color: #009fe3;
+        height: 2.5rem;
+        width: 2.5rem;
+        color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+
+        span {
+          text-align: center;
+          color: white;
+          font-size: 32px;
+          font-family: Gotham;
+          font-weight: 700;
+          line-height: 40px;
+          word-wrap: break-word;
+        }
+      }
+    }
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+}

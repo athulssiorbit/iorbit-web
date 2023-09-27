@@ -1,0 +1,79 @@
+.main-container {
+  min-width: 1100px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.home-section {
+  background-color: black;
+  height: 100vh;
+  background-image: url("/background.png"); /* Set the background image */
+  background-size: cover; /* Adjust how the image is displayed */
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  .text-container {
+    flex: 2;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    h1 {
+      // Where trust<br/>meets innovation
+      color: white;
+      font-size: 3.75rem;
+      font-family: Nexa Bold;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 60px;
+      word-wrap: break-word;
+      max-width: 60%;
+    }
+    p {
+      // Your reliable MedTech Partner for a Healthier Future
+      color: white;
+      font-size: 1.125rem;
+      font-family: Gotham;
+      font-weight: 400;
+      line-height: 36px;
+      word-wrap: break-word;
+    }
+
+    button {
+      border: none;
+      background-color: #ffffff;
+      padding: 1rem 1.5rem;
+      border-radius: 1.5rem;
+      color: #201d1d;
+      font-size: 0.87rem;
+      font-weight: 400;
+      line-height: 20px;
+      word-wrap: break-word;
+    }
+    button:hover {
+      cursor: pointer;
+    }
+  }
+
+  .bottom-ovel {
+    height: 7rem;
+    display: flex;
+    gap: 0;
+    width: 100%;
+    div {
+      background-color: white;
+    }
+    div:first-child {
+      flex: 1;
+      border-top-left-radius: 100%;
+    }
+    div:last-child {
+      flex: 1;
+      border-top-right-radius: 100%;
+    }
+  }
+}

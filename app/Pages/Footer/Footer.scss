@@ -1,0 +1,45 @@
+footer {
+  background-color: #201d1d;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #ffffff;
+
+  .footer-container {
+    max-width: var(--max-width);
+    display: flex;
+    margin-top: 3rem;
+    div {
+      flex: 1;
+      gap: 1rem;
+    }
+   .social-icons-container{
+    flex: 2;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        p {
+            // iOrbit is a digital health company founded over 4 years ago. Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology
+            color: white;
+            font-size: 14px;
+            font-family: Gotham;
+            font-weight: 300;
+            line-height: 28px;
+            word-wrap: break-word;
+          }
+    }
+  
+    .social-icons {
+        display: flex;
+    }
+  }
+  .bottom-nav-bar {
+    max-width: 80rem;
+    color: #201d1d;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+
+    padding: 1.9rem 4rem;
+    
+  }
+}

@@ -1,95 +1,30 @@
 import Image from 'next/image'
 import styles from './page.module.css'
-
+import HomePage from './Pages/HomePage/HomePage'
+import SecondSection from './Pages/SecondSection/SecondSection'
+import ThirdSection from './Pages/ThirdSection/ThirdSection'
+import FourthSection from './Pages/FourthSection/FourthSection'
+import FifthSection from './Pages/FifthSection/FifthSection'
+import SixthSection from './Pages/SixthSection/SixthSection'
+import Footer from './Pages/Footer/Footer'
+import JoinUsSection from './Pages/JoinUsSection/JoinUsSection'
+import ResponseCare from './Pages/ResponseCareSection/ResponseCare'
+import OurService from './Pages/OurServiceSection/OurService'
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    <>
+      <HomePage />
+      <SecondSection />
+      <ThirdSection />
+      <FourthSection image="/ipad.png" btn data={{count:1,title:"Book a meeting",content:"Need help with connectivity as part of your digital transformation? Contact iOrbit today to see how we can help."}}/>
+      <FourthSection image="/iphone.png" rev data={{count:2,title:"Easy-install and go live",content:"When you partner with iOrbit, we take the implementation pain away with a quick integration into your existing IT infrastructure and workflows."}} />
+      <FourthSection image="/monitor.png" data={{count:3,title:"Access, analyze, and deliver",content:"Data is connected within minutes of going live with iOrbit. With accessible data and powerful new insights right at your fingertips, your clinical staff will be ready to confidently increase caseload types and volume, without sacrificing the quality of care."}}/>
+      <FifthSection />
+      <SixthSection />
+      <OurService />
+      <ResponseCare />
+      <JoinUsSection />
+      <Footer />
+    </>
   )
 }

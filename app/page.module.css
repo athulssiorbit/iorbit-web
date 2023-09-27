@@ -1,3 +1,16 @@
+@font-face {
+  font-family: Gotham;
+  src: url('/Gotham-Book.otf') format('truetype');
+  /* Repeat the above line for other font weights and styles if needed */
+}
+@font-face {
+  font-family: Nexa Bold;
+  src: url('/Nexa-Heavy.ttf') format('truetype');
+  /* Repeat the above line for other font weights and styles if needed */
+}
+
+
+
 .main {
   display: flex;
   flex-direction: column;

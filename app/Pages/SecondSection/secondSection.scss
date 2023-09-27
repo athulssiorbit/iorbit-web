@@ -1,0 +1,52 @@
+.second-section {
+  background-color: #ffffff;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  .second-container {
+    min-width: 1100px;
+    display: flex;
+    div:first-child {
+      flex: 1;
+    }
+    div:last-child {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      align-items: flex-start;
+      gap:1.5rem;
+      margin-left: 1rem;
+      h1 {
+        // Solutions made simple
+        // Solutions made simple
+        color: #201d1d;
+        font-size: 2rem;
+        font-family: Gotham;
+        font-weight: 700;
+        line-height: 40px;
+        word-wrap: break-word;
+      }
+      p {
+        // Want to provide data-driven patient care, but are worried about launching and maintaining a complex connectivity system? No need.
+        color: black;
+        font-size: 0.875rem;
+        font-family: Gotham;
+        max-width: 500px;
+        font-weight: 400;
+        line-height: 36px;
+        word-wrap: break-word;
+      }
+      .second-line {
+        // iOrbit is designed with simplicity and accessibility in mind. We offer plug-and-play solutions that are cloud-based, with no complex IT infrastructure or training required to deploy. We can connect with what you already have, transfer your data to a secure access point, and integrate with all the software information systems your hospital already uses. Book a meeting and see how simple and intuitive smart technology can be.
+        color: #808285;
+      }
+      button {
+        border: none;
+        background-color: #009fe3;
+        padding: 1rem 1.5rem;
+        border-radius: 1.5rem;
+        color: white;
+      }
+    }
+  }
+}
