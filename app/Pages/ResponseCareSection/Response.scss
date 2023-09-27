@@ -2,10 +2,11 @@
   // padding: 6rem 0;
   display: flex;
   justify-content: center;
+  background-color: #FFFFFF;
   // background-image: linear-gradient(to bottom left, #201d1d 50%, #ffffff 50%);
 
   .response-container {
-    max-width: var(--max-width);
+    max-width: 1000px;
     display: flex;
     gap: 3rem;
     margin: 2rem 0 5rem 0;

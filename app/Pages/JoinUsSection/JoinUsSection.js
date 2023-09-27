@@ -8,7 +8,7 @@ const JoinUsSection = () => {
         <p>We are a growing company seeking worldwide participation and involvement of people from different <br/>streams of digital health. If you are one of them, please join us!</p>
         <button>Join Us</button>
         </div>
-
+    <div class='curve'></div>
     </section>
   )
 }

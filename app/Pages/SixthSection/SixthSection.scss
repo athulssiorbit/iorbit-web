@@ -1,8 +1,9 @@
 .six-section {
+  position: relative;
   padding: 6rem 0;
   display: flex;
   justify-content: center;
-  background-image: linear-gradient(to bottom left, #201d1d 50%, #ffffff 50%);
+  // background-image: linear-gradient(to bottom left, #201d1d 50%, #ffffff 50%);
 }
 // .six-section::before {
 //     background-image: linear-gradient(
@@ -55,5 +56,18 @@
       justify-content: center;
       gap: 1rem;
     }
+  }
+}
+
+.outer{
+  position: relative;
+
+  .curve {
+    background-color: #201d1d;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
 }

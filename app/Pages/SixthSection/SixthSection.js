@@ -3,7 +3,9 @@ import './SixthSection.scss'
 const SixthSection = () => {
     return (
         <div class="outer">
+             <div class="curve"></div>
             <section class="six-section">
+               
                 <div class="six-container" >
                     <div class="left-container">
                         <h2>Enabling Early Intervention Through Early Prediction</h2>
