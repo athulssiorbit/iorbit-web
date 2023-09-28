@@ -1,10 +1,14 @@
+"use client";
 import React from 'react'
 import './secondSection.scss'
+import { Fade } from 'react-reveal'
 const SecondSection = () => {
   return (
     <section class="second-section" id='our-solutions'>
       <div class="second-container">
+       
         <div><img src='/solutions.svg' /></div>
+      
         <div>
           <h1>Solutions made simple</h1>
           <p>

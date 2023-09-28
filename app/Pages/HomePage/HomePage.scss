@@ -3,17 +3,20 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  z-index: 2;
 }
 .home-section {
-  background-color: black;
+  background-color: rgb(2, 162, 255);
   height: 100vh;
-  background-image: url("/background.png"); /* Set the background image */
+  // background-image: url("/background.webp"); /* Set the background image */
   background-size: cover; /* Adjust how the image is displayed */
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: relative;
+
   .text-container {
     flex: 2;
     gap: 1rem;
@@ -69,6 +72,8 @@
   }
 
   .bottom-ovel {
+    position: absolute;
+    bottom: 0;
     height: 7rem;
     display: flex;
     gap: 0;
@@ -83,6 +88,65 @@
     div:last-child {
       flex: 1;
       border-top-right-radius: 100%;
+    }
+  }
+
+
+  .background-image{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    background-image: url("/bg1.webp"); /* Set the background image */
+    background-size: cover; /* Adjust how the image is displayed */
+    background-repeat: no-repeat;
+    opacity: .5;
+  
+    img{
+      height: 100%;
+    }
+  }
+  .background-ellipse{
+    top: 0;
+    right: 0;
+    background-image: url("/ellipse.svg"); /* Set the background image */
+    background-size: cover; /* Adjust how the image is displayed */
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+  }
+
+  .hand-container{
+    top: 50%;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+
+    .hand{
+      height: 100%;
+      // background-image: url("/hand.png"); /* Set the background image */
+      background-size: cover; /* Adjust how the image is displayed */
+      background-repeat: no-repeat;
+  
+    }
+  }
+
+  .logo-container{
+    top: 17%;
+    right: 0;
+    width: 40%;
+    height: 50%;
+    position: absolute;
+
+    .logo{
+      height: 100%;
+      // background-image: url("/hand-logo.png"); /* Set the background image */
+      background-size: cover; /* Adjust how the image is displayed */
+      background-repeat: no-repeat;
+  
     }
   }
 }

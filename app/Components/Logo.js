@@ -1,12 +1,21 @@
 import React from 'react'
 
-const Logo = () => {
+const Logo = (white) => {
     return (
-        <img
-            src="/logo.png"
-            alt="Next.js Logo"
-            priority
-        />
+        <>
+        {
+            white ? (<div>
+
+            
+            
+            </div>) : ( <img 
+                src="/logo.png"
+                alt="Next.js Logo"
+                priority
+            />)
+        }
+       
+        </>
     )
 }
 

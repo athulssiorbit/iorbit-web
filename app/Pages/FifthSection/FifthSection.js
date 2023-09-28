@@ -9,7 +9,7 @@ const FifthSection = () => {
             <main class="fifth-section">
                 <div class="fifth-container">
                     <div class="left-container">
-                        <div><img src='/laptop.png' /></div>
+                        <div><img src='/laptop.webp' /></div>
                         <div><img src='/doctors.png' /></div>
                         <div class="hor-blue-line"></div>
                         <div>
@@ -19,7 +19,12 @@ const FifthSection = () => {
                     </div>
                     <div  class="right-container">
                         <div>
+                            <div class="rgt-cont-h2-con">
+                                <div className='ver-blue-line'>
+                                    
+                                </div>
                             <h2>Life Transforming Technology</h2>
+                            </div>
                             <p>We combine technology, in-depth body knowledge, and cutting-edge medical science to pioneer unprecedented solutions. From minimizing patient downtime, our ability to transform lives knows no bounds. Experience the limitless potential of our innovations as we redefine what's possible in healthcare</p>
                         </div>
                         <div><img src='/doctor.png' /></div>

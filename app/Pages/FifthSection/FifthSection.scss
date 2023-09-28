@@ -50,6 +50,16 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    .rgt-cont-h2-con{
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      .ver-blue-line{
+        background-color: #009fe3;
+        width: 3px;
+        height: 77px;
+      }
+    }
   }
   .hor-blue-line {
     background-color: #009fe3;

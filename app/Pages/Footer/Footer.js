@@ -5,10 +5,10 @@ import SocialIcons from '@/app/Components/SocialIcons'
 
 const Footer = () => {
     return (
-        <footer>
+        <footer id='aboutus'>
             <div class="footer-container">
                 <div class='social-icons-container'>
-                    <Logo />
+                    <Logo white />
                     <p>iOrbit is a digital health company founded over 4 years ago. Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology</p>
                     <div class="social-icons">
                        <SocialIcons icon="/facebook.svg"/>

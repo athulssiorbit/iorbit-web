@@ -6,6 +6,22 @@ import VectorLines from '@/app/Components/VectorLines'
 const HomePage = () => {
   return (
     <section class="home-section">
+      <div class="background-image">
+        {/* <img src='/bg1.webp' /> */}
+      </div>
+      <div class="background-ellipse">
+        {/* <img src='/ellipse.svg' /> */}
+      </div>
+      <div class='logo-container'>
+        <div class='logo'>
+        <img src='./hand-logo.png' />
+        </div>
+      </div>
+      <div class='hand-container'>
+        <div class='hand'>
+        <img src='./hand.png' />
+        </div>
+      </div>
       <div class='main-container'>
         <Navbar />
         <div class="text-container">

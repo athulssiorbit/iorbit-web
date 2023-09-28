@@ -1,18 +1,19 @@
 import React from 'react'
 import "./NavBar.scss"
 import Logo from './Logo'
+import Link from 'next/link'
 const Navbar = () => {
     return (
         <nav>
            <Logo />
             <div class="menu-section">
                 <ul>
-                    <li>About Us</li>
-                    <li>Our Solutions</li>
-                    <li>Product Design</li>
-                    <li>Updates</li>
-                    <li>Careers</li>
-                    <li>Contact</li>
+                    <li><h1><Link href="#aboutus">About Us</Link></h1></li>
+                    <li><h1><Link href="#our-solutions">Our Solutions</Link></h1></li>
+                    <li><h1><Link href="#aboutus">Product Design</Link></h1></li>
+                    <li><h1><Link href="#aboutus">Updates</Link></h1></li>
+                    <li><h1><Link href="#aboutus">Careers</Link></h1></li>
+                    <li><h1><Link href="#aboutus">Contact</Link></h1></li>
                 </ul>
                 <button>
                     <span> Member Login</span>
