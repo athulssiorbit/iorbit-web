@@ -8,14 +8,22 @@ const Footer = () => {
         <footer>
             <div class="footer-container">
                 <div class='social-icons-container'>
+<<<<<<< Updated upstream
                     <Logo />
+=======
+                    {/* <Logo white /> */}
+                    <div> 
+                        <img src='/logo-x-white.svg' />
+                        <img src='/logo-name-white.svg' />
+                    </div>
+>>>>>>> Stashed changes
                     <p>iOrbit is a digital health company founded over 4 years ago. Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology</p>
                     <div class="social-icons">
-                       <SocialIcons icon="/facebook.svg"/>
-                       <SocialIcons icon="/twitter.svg"/>
-                       <SocialIcons icon="/instagram.svg"/>
-                       <SocialIcons icon="/linkedin.svg"/>
-                       <SocialIcons icon="/youtube.svg"/>
+                        <SocialIcons icon="/facebook.svg" />
+                        <SocialIcons icon="/twitter.svg" />
+                        <SocialIcons icon="/instagram.svg" />
+                        <SocialIcons icon="/linkedin.svg" />
+                        <SocialIcons icon="/youtube.svg" />
                     </div>
                 </div>
                 <div class='site-map'>
@@ -57,16 +65,16 @@ const Footer = () => {
                         <li>
                             <img src='/mail.svg' />
                             <div class='mail-link'>
-                            <a href="mailto:support@iorbit-tech.com">support@iorbit-tech.com</a>
-                            <a href="mailto:sales@iorbit-tech.com">sales@iorbit-tech.com</a>
+                                <a href="mailto:support@iorbit-tech.com">support@iorbit-tech.com</a>
+                                <a href="mailto:sales@iorbit-tech.com">sales@iorbit-tech.com</a>
                             </div>
                         </li>
 
                     </ul>
                 </div>
             </div>
-            <nav class='bottom-nav-bar'>   
-            © 2023 iorbit-tech. All Rights Reserved.
+            <nav class='bottom-nav-bar'>
+                © 2023 iorbit-tech. All Rights Reserved.
                 <div class="menu-section">
                     <ul>
                         <li>Privacy Policy</li>

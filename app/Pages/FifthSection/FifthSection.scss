@@ -1,13 +1,31 @@
-.diagonal {
+.dia-cont{
   position: relative;
-  width: 100vw; /* 100% of the viewport width */
-  background-image: linear-gradient(
-    to bottom right,
-    #ffffff 40%,
-    #97daff 48%,
-    #201d1d 40%
-  );
-  height: 100px;
+  height: 8rem;
+}
+.diagonal {
+  width: 0; /* 100% of the viewport width */
+  height: 0;
+  border-bottom: 8rem solid  #201d1d;
+  border-left: 100vw solid transparent;
+position: absolute;
+  // position: relative;
+  // background-image: linear-gradient(
+  //   to bottom right,
+  //   #ffffff 50%,
+  //   #201d1d 50%
+  // );
+
+}
+.dia-blue {
+  bottom: 2rem;
+  border-bottom: 8rem solid  #0094DA;
+}
+.dia-box{
+  position: absolute;
+    height: 2rem;
+    width: 100vw;
+    background-color: #0094DA;
+    bottom: 0;
 }
 
 .fifth-section {

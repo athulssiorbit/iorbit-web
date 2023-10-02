@@ -5,7 +5,7 @@ const ResponseCare = () => {
         <section class="response-section">
             <div class="response-container" >
                 <div>
-                    <img src='/response.png' />
+                    <img src='/response.webp' />
 
                 </div>
                 <div>

@@ -2,15 +2,21 @@ import React from 'react'
 import './FifthSection.scss'
 const FifthSection = () => {
     return (
-        <>
-            <div class="diagonal">
-
-            </div>
+        <><div class="dia-cont">
+            <div class="dia-box" />
+            <div class="diagonal dia-blue" />
+            <div class="diagonal" />          
+        </div>
             <main class="fifth-section">
                 <div class="fifth-container">
                     <div class="left-container">
+<<<<<<< Updated upstream
                         <div><img src='/laptop.png' /></div>
                         <div><img src='/doctors.png' /></div>
+=======
+                        <div><img src='/laptop.webp' /></div>
+                        <div><img src='/doctors.webp' /></div>
+>>>>>>> Stashed changes
                         <div class="hor-blue-line"></div>
                         <div>
                             <h2>Enhance Patient Safety With Seamless Data Integration</h2>
@@ -22,7 +28,7 @@ const FifthSection = () => {
                             <h2>Life Transforming Technology</h2>
                             <p>We combine technology, in-depth body knowledge, and cutting-edge medical science to pioneer unprecedented solutions. From minimizing patient downtime, our ability to transform lives knows no bounds. Experience the limitless potential of our innovations as we redefine what's possible in healthcare</p>
                         </div>
-                        <div><img src='/doctor.png' /></div>
+                        <div><img src='/doctor.webp' /></div>
                         <div class="hor-blue-line"></div>
                         <div>
                             <h2>Insight-Driven Care</h2>

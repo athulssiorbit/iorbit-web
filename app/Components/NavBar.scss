@@ -17,7 +17,7 @@ nav {
       gap: 2.5rem;
       align-items: center;
 
-      li {
+      li h1 a{
         // About Us
         color: black;
         font-size: 0.875rem;
@@ -42,4 +42,8 @@ nav {
       word-wrap: break-word;
     }
   }
+}
+
+button:hover{
+  cursor: pointer;
 }

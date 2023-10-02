@@ -51,6 +51,9 @@ z-index: -2;
       line-height: 20px;
       word-wrap: break-word;
     }
+    button:hover{
+      cursor: pointer;
+    }
   }
 
   .curve{
@@ -65,3 +68,4 @@ z-index: -2;
     border-top: #0094DA 1rem solid;
   }
 }
+

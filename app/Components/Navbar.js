@@ -1,7 +1,9 @@
-import React from 'react'
+"use client"
+import React, { useState } from 'react'
 import "./NavBar.scss"
 import Logo from './Logo'
 const Navbar = () => {
+   
     return (
         <nav>
            <Logo />
