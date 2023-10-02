@@ -8,15 +8,13 @@ const Footer = () => {
         <footer>
             <div class="footer-container">
                 <div class='social-icons-container'>
-<<<<<<< Updated upstream
-                    <Logo />
-=======
+
                     {/* <Logo white /> */}
                     <div> 
                         <img src='/logo-x-white.svg' />
                         <img src='/logo-name-white.svg' />
                     </div>
->>>>>>> Stashed changes
+
                     <p>iOrbit is a digital health company founded over 4 years ago. Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology</p>
                     <div class="social-icons">
                         <SocialIcons icon="/facebook.svg" />
