@@ -17,7 +17,7 @@ nav {
       gap: 2.5rem;
       align-items: center;
 
-      li h1 a{
+      li,li h1 a{
         // About Us
         color: black;
         font-size: 0.875rem;
@@ -26,6 +26,7 @@ nav {
         line-height: 20px;
         word-wrap: break-word;
       }
+      
     }
 
     button {

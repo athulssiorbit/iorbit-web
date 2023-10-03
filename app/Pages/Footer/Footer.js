@@ -10,12 +10,12 @@ const Footer = () => {
                 <div class='social-icons-container'>
 
                     {/* <Logo white /> */}
-                    <div> 
+                    <div>
                         <img src='/logo-x-white.svg' />
                         <img src='/logo-name-white.svg' />
                     </div>
 
-                    <p>iOrbit is a digital health company founded over 4 years ago. Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology</p>
+                    <p>iOrbit is a digital health company founded in 2016.<br /> Our focus is to enable the convergence of clinical aspects, behavioral sciences and technology</p>
                     <div class="social-icons">
                         <SocialIcons icon="/facebook.svg" />
                         <SocialIcons icon="/twitter.svg" />
@@ -55,6 +55,13 @@ const Footer = () => {
                             <img src='/location.svg' />
                             <span>iOrbit Digital Technologies LLC
                                 Atlanta, USA</span>
+                        </li>
+                        <li>
+                            <img src='/location.svg' />
+                            <span>iOrbit Digital Technologies B.V.
+                                Rotterdam, The Netherlands
+
+                            </span>
                         </li>
                         <li>
                             <img src='/location.svg' />

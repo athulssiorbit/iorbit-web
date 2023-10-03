@@ -2,6 +2,7 @@
 import React, { useState } from 'react'
 import "./NavBar.scss"
 import Logo from './Logo'
+import Link from 'next/link'
 const Navbar = () => {
    
     return (
@@ -9,12 +10,12 @@ const Navbar = () => {
            <Logo />
             <div class="menu-section">
                 <ul>
-                    <li>About Us</li>
-                    <li>Our Solutions</li>
-                    <li>Product Design</li>
-                    <li>Updates</li>
-                    <li>Careers</li>
-                    <li>Contact</li>
+                    <li><Link href="#">About Us</Link></li>
+                    <li><Link href="#">Our Solutions</Link></li>
+                    <li><Link href="#">Product Design</Link></li>
+                    <li><Link href="#">Updates</Link></li>
+                    <li><Link href="#">Careers</Link></li>
+                    <li><Link href="#">Contact</Link></li>
                 </ul>
                 <button>
                     <span> Member Login</span>
